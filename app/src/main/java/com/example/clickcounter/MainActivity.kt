@@ -20,12 +20,12 @@ class MainActivity : AppCompatActivity() {
         btnClickMe.setOnClickListener {
             counter = counter + 1
             myTextView.text = counter.toString()
-            Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@MainActivity, "clicked", Toast.LENGTH_SHORT).show()
         }
         myTextView.setOnClickListener{
             counter = 0
             myTextView.text = counter.toString()
-            Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@MainActivity, "restored", Toast.LENGTH_SHORT).show()
         }
     }
 }
