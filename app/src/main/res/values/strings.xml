@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ClickCounter</string>
+    <string name="you_clicked">You Clicked : 0</string>
+    <string name="you_stored">Save : none</string>
+    <string name="click_me">Click Me</string>
 </resources>
